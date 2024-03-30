@@ -1,10 +1,14 @@
 body {
     margin:0;
     font-family: "Montserrat", sans-serif;
+    
+    
+    
 
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.6;
     color: #333;
+    
 
 }
 
@@ -29,7 +33,7 @@ hr {
 }
 /* Page */
 .page  {
-  overflow: hidden;
+    overflow: hidden;  
 }
 
 /* CONTAINER */
@@ -358,7 +362,7 @@ background-color: #eb8b8d;
 
 .section {
   padding: 80px 0px;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 .section--devices {
@@ -379,6 +383,8 @@ background-color: #eb8b8d;
   background: #f5f5f5ff 
   url("../images/clientsbg.jpg")
   center no-repeat;
+  -webkit-background-size:cover;
+  background-size: cover;
 }
 
 .section--map {
@@ -1436,6 +1442,7 @@ font-weight: 300;
 @media (max-width: 770px)  {
   /* Intro */
   .intro {
+    font-size: 32px;
     min-height: 650px;}
     
   .intro__title::after {
@@ -1450,6 +1457,7 @@ font-weight: 300;
   /* body*/
   .body {
     line-height: 0.6;
+    
   }
   
   /* Nav */
@@ -1596,6 +1604,11 @@ font-weight: 300;
 @media (max-width: 575px)  {
     /* Intro */
 
+    .intro {
+      min-height: 650px;
+    }
+
+
     .intro__suptitle {
       font-size: 22px;
     }
@@ -1691,6 +1704,7 @@ font-weight: 300;
   }
 
   .clients__item {
+    width: 100%;
     padding-left: 0;
     text-align: center;
   }
@@ -1701,7 +1715,7 @@ font-weight: 300;
 
   /* blogs */
   .blogs__img {
-    width: 80%;
+    width: 62%;
     height: 50%;
   }
   
@@ -1727,4 +1741,9 @@ font-weight: 300;
   .subscribe__btn {
     width: 100%;
   }
+
+
 }
+
+
+
